@@ -1,6 +1,6 @@
 [project]
 name = "samp_query"
-version = "0.6.0"
+version = "0.6.1"
 authors = [
   { name="The Cheaterman", email="the.cheaterman@gmail.com" },
 ]
@@ -14,7 +14,7 @@ classifiers = [
 ]
 dependencies = [
   "trio",
-  "faust-cchardet",
+  "charset-normalizer",
 ]
 
 [project.scripts]

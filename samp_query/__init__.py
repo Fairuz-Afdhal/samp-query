@@ -4,7 +4,7 @@ import random
 import typing
 from dataclasses import dataclass, field
 
-import cchardet as chardet  # type: ignore
+import charset_normalizer as chardet  # type: ignore
 import trio
 
 # Assuming ratio between max and min ping can't be higher than this
